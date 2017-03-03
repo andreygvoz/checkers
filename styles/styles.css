@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.board {
+	
+	position: relative;
+	height: 646px;
+	width: 646px;
+	margin: 5px auto;
+	border: 3px solid black;
+}
+
+.black {
+	width: 80px;
+	height: 80px;
+	background-color: black;
+	position: absolute;
+}
+.white {
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	position: absolute;
+}
+.cub1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cub2 {
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+.cub3 {
+	position: absolute;
+	top: 160px;
+	left: 0;
+}
+.cub4 {
+	position: absolute;
+	top: 240px;
+	left: 0;
+}
+.cub5 {
+	position: absolute;
+	top: 320px;
+	left: 0;
+}
+.cub6 {
+	position: absolute;
+	top: 400px;
+	left: 0;
+}
+.cub7 {
+	position: absolute;
+	top: 480px;
+	left: 0;
+}
+.cub8 {
+	position: absolute;
+	top: 560px;
+	left: 0;
+}
+.box2 {
+	left: 80px;
+}
+.box3 {
+	left: 160px;
+}
+.box4 {
+	left: 240px;
+}
+.box5 {
+	left: 320px;
+}	    
+.box6 {
+	left: 400px;
+}	
+.box7 {
+	left: 480px;
+}	
+.box8 {
+	left: 560px;
+}	
+.chets-b {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	background-color: gold;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.chets-w {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	background-color: green;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
